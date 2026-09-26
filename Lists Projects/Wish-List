@@ -1,0 +1,30 @@
+# Wishlist
+wishL=[]
+
+while True:
+    print("~"*50)
+    print("Welcome to The Magical Market!!")
+    print("Press the '1' key to add an item to the wishlist.")
+    print("Press the '2' key to delete an item from the wishlist.")
+    print("Press the '3' key to view the wishlist.")
+    print("Press the '4' key to Exit.")
+    choice=str(input("Enter 1/2/3/4: "))
+    if choice=="1":
+        item=input("Enter an item: ")
+        #wishL.append(item)
+        wishL.insert(0,item)
+        print(f"{item} successfully added!")
+    elif choice=="2":
+            item=input("Enter an item to remove: ")
+            #wishL.append(item)
+            wishL.remove(item)
+            print(f"{item} successfully removed!")
+    elif choice=="3":
+            print("Here is your wishlist: ")
+            for item in wishL:
+                  print(item)
+    elif choice=="4":
+                print("See ya!")
+                break
+    else:
+        print("Invalid input ... Input can ONLY be 1/2/3/4. ")
