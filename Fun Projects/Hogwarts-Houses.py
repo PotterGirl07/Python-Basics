@@ -1,4 +1,4 @@
-print("Which Harry Potter House Are You?\nTake this quiz to find out!")
+print("Which Hogwarts House Are You?\nTake this quiz to find out!")
 print("~"*100)
 g=0
 r=0
