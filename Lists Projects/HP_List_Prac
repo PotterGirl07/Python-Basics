@@ -1,0 +1,31 @@
+characters = ["Harry", "Ron", "Hermione", "Ginny", "Dumbledore", "Voldemort", "Neville", "Bellatrix"]
+print("Initial list:\n", characters)
+print(" ")
+
+#One Item
+print("Third character only:\n",characters[2])
+print(" ")
+
+#Adding
+characters.insert(5, "Hagrid")
+characters.insert(6, "Sirius")
+characters.append("Snape")
+characters.append("Draco")
+print("Add 4 characters:\n",characters)
+print(" ")
+
+#Deleting
+characters.remove("Neville")
+characters.pop(8)
+print("After removing characters:\n",characters)
+print(" ")
+
+#Updating
+characters[0] = "Harry Potter"
+print("After updating:\n",characters)
+print(" ")
+
+#Finalizing
+print("Final list of characters:")
+for character in characters:
+    print(character)
