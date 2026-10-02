@@ -1,0 +1,30 @@
+# Library System
+lib=[]
+
+while True:
+    print("~"*50)
+    print("Welcome to The Magical Library!!")
+    print("Press the '1' key to add a book to your library cart.")
+    print("Press the '2' key to remove a book from your library cart.")
+    print("Press the '3' key to view your library cart.")
+    print("Press the '4' key to Exit.")
+
+    choice=str(input("Enter 1/2/3/4: "))
+
+    if choice=="1":
+        book=input("Enter a book to add to cart: ")
+        lib.insert(0,book)
+        print(f"{book} successfully added!")
+    elif choice=="2":
+        book=input("Enter a book to remove from cart: ")
+        lib.remove(book)
+        print(f"{book} successfully removed!")
+    elif choice=="3":
+        print("Here are the books in your cart: ")
+        for book in lib:
+            print(f"- {book}")
+    elif choice=="4":
+        print("See ya!")
+        break
+    else:
+        print("Invalid input ... Input can ONLY be 1/2/3/4.")
