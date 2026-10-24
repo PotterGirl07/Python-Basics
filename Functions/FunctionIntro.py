@@ -6,7 +6,7 @@
     #can be called in another file
     #User-Definined ~ which are as follows
     #cannot be called in another file
-#Function has 3 steps
+#Function has 2 steps
     #Define & Call
 #after creating, you can call it whenever in the same file - DRY
 
