@@ -1,4 +1,3 @@
-# variable can store a singular value 
 # if you want to store multiple names, use LIST
 
 names = ["Aashra","Brianna","Valeria","Ava","Maria"]
