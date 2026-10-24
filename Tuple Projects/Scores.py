@@ -1,9 +1,10 @@
 s1 = ("Aashra", 100)
 s2 = ("Brianna", 97)
 s3 = ("Valeria", 96)
-s4 = ("Lucas", 94)
-s5 = ("Lochlann", 99)
+s4 = ("Lucas", 99)
+s5 = ("Lochlann", 94)
 
+print("Here are the students' scores:")
 
 name, score = s1
 print(f"{name}:")
