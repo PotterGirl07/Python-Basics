@@ -31,7 +31,6 @@ s1={1,2,3,8}
 s2={3,4,5,8}
 s3={5,6,7,8}
 print(s1 & s2 & s3)
-
 #difference - subtracts two sets and shows the remaining value
 ns1={3,4,5,6,7}
 ns2={1,2,3,4,5}
