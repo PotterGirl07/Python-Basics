@@ -14,3 +14,13 @@ def globalshowactor():
 localshowactor()
 globalshowactor()
 print(actor)
+
+
+# Global
+x=10
+def num():
+    global x
+    x=12
+    print(x)
+num()
+print(x)
