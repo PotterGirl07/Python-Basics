@@ -2,6 +2,7 @@ def AddNums(n1, n2):
     result = n1 + n2
     return result
 
+#HOMEWORK
 def SubNums(n1, n2):
     result = n1 - n2
     return result
