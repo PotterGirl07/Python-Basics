@@ -65,6 +65,7 @@ print("Registered your choice!")
 print("~"*100)
 
 
+#HOMEWORK
 print("Question #4")
 print("Your team is losing an important Quidditch match. What do you do?")
 print(" A. Take a risky shot to turn the game around\n B. Look for a weakness in the other team and do illegal moves to win\n C. Encourage everyone to keep trying\n D. Come up with a new strategy")
