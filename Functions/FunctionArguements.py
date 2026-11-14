@@ -24,6 +24,18 @@ addnums(123,456)
 subnums(200,100)
 subnums(90,33)
 
+
+#default arguement
+#when you call a function and it has no arguement
+#then it shouldn't crashout
+
+def greet(name="user"):
+    print(f"Hello {name}!")
+
+greet()
+greet("Aashra")
+
+
 mltpynums(7,8)
 mltpynums(9,3)
 
